@@ -1,5 +1,6 @@
 body{
   margin: 0;
+  background-color: #f4f4f9;
 }
 
 header {
@@ -30,4 +31,35 @@ nav a {
 
 nav a:hover {
   color: #3498db;
+}
+
+main {
+    width: 1000px;
+    padding: 20px 0;
+    margin: auto;
+    height: 1298.56px;
+}
+
+#article1{
+  float: left;
+  width: 652.5px;
+  background-color: white;
+  padding: 30px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+aside{
+  float: right;
+  width: 227.5px;
+  background-color: white;
+  padding: 20px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+footer {
+  background-color: #2c3e50;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+  
 }
