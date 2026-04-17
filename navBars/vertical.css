@@ -1,0 +1,87 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+/* Vertical Navbar */
+ul.simple {
+  position: absolute;
+  top: 10px;
+  left: 600px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: #f1f1f1;
+}
+
+.simple li a {
+  display: block;
+  color: black;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+.simple li a:hover {
+  background-color: #555555;
+  color: white;
+}
+
+
+/* Active state */
+ul.act {
+  position: absolute;
+  top: 10px;
+  left: 900px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: #f1f1f1;
+}
+
+.act li a {
+  display: block;
+  color: black;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+.act li a.active {
+  background-color: #ff7f50;
+  color: white;
+}
+
+.act li a:hover:not(.active) {
+  background-color: #555555;
+  color: white;
+}
+
+
+/* full height */
+ul.full {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 130px;
+  background-color: #f1f1f1;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
+
+.full li a {
+  display: block;
+  color: black;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+.full li a.active {
+  background-color: #ff7f50;
+  color: white;
+}
+
+.full li a:hover:not(.active) {
+  background-color: #555555;
+  color: white;
+}
